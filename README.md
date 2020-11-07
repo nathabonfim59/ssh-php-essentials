@@ -32,5 +32,6 @@ export PATH=$PATH:~/.scripts
 
 # License
 This project is under the MIT license. 
-**Third-party tools** 
+
+## Third-party tools 
 [WP-CLI](.scripts/wp) - MIT - [Original Project](https://wp-cli.org)
