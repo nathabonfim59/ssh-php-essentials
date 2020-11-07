@@ -29,3 +29,8 @@ export PATH=$PATH:~/.scripts
 ```
 
 6. It's done! Enjoy. If you have any contribution, fell free to open a PR.
+
+# License
+This project is under the MIT license. 
+**Third-party tools** 
+[WP-CLI](.scripts/wp) - MIT - [Original Project](https://wp-cli.org)
