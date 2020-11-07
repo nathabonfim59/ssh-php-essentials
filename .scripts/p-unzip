@@ -1,0 +1,15 @@
+#!/usr/bin/php
+<?php
+
+set_time_limit(0);
+
+$unzip = new ZipArchive;
+
+$out = $unzip->open($argv[1]);
+
+if ($out === true) {
+	$unzip->extractTo(getCwd());
+	$unzip->close();
+
+	echo '>> File extracted';
+}

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Argumentos
+destinationFolder=$1 # Pasta de destino
+filesList=$2         # Arquivos (sem espaço) um por linha
+
+if [-z "$1"] && [-z "$2"]; then
+	echo "Sintaxe\n";
+	echo "mv-bulk <destination folder> <file list>";
+else
+	mv -t "$destinationFolder" $(< $filesList)
+fi
+
